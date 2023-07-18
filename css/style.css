@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+    background-color: #000;
+}
+#background-img {
+  width: 100vh;
+  height: 310px;
+}
+.profile-container {
+  position: absolute;
+}
+.dp-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dp-image {
+  border-radius: 80% !important;
+  height: 190px;
+  width: 34%;
+}
+.dp-container {
+  margin-top: -100px;
+  width: 100%;
+}
+.title {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.inner-title{
+    text-align: center;
+}
+.title h1 {
+  font-size: 42px;
+}
+.title p {
+  font-size: 18px;
+}
+
+.containers {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 0;
+}
+
+.container {
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  margin: 1rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  width: 50%;
+  margin: auto;
+}
+
+.container h4 {
+  font-size: 16px;
+  font-weight: bolder;
+  transition: 0.6s ease;
+  margin: 0;
+}
+.container h4 span {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.container h4:hover {
+  font-size: 18px;
+}
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.copyright{
+    padding: 1.2rem;
+}
+.text h6{
+    text-align: center;
+    color: #fff;
+}
+
